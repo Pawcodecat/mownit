@@ -16,16 +16,16 @@ def sphere():
     ax.plot_surface(x, y, z, rstride=4, cstride=4, color='g')
 
 
-    a  = [1,1,1]
-    A1 = [[100,2,30],[2,45,143],[1,3,45]]
-    A1 = np.array(A1)
-    A2 = [[100,2,30],[2,45,143],[1,3,45]]
-    A2 = np.array(A2)
-    A3 = [[100,2,30],[2,45,143],[1,3,45]]
-    A3 = np.array(A3)
-    B1 = a @ A1
-    B2 = a @ A2
-    B3 = a @ A3
+    # a  = [1,1,1]
+    # A1 = [[100,2,30],[2,45,143],[1,3,45]]
+    # A1 = np.array(A1)
+    # A2 = [[100,2,30],[2,45,143],[1,3,45]]
+    # A2 = np.array(A2)
+    # A3 = [[100,2,30],[2,45,143],[1,3,45]]
+    # A3 = np.array(A3)
+    # B1 = a @ A1
+    # B2 = a @ A2
+    # B3 = a @ A3
 
     x = np.outer(B1[0] * np.cos(s), np.sin(t))
     y = np.outer(B1[1] * np.sin(s), np.sin(t))

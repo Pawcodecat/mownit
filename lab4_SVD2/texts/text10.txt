@@ -1,0 +1,1 @@
+Include red types: Those who offer passenger service out of all time: Wolfgang Amadeus Mozart. Ludwig van Beethoven was a professor: :- teaches(john, logic, T) :- 1990 ≤ T, T < 2005. teaches(john, logic, T), rank(john, professor, T). The solution is 2010 ≤ T, T < 2010. rank(john, professor, T) :- 1990 ≤ T, T < 2005. teaches(john, logic, T.
